@@ -1,0 +1,23 @@
+{
+    "name": "wuchenge/jwt",
+    "description": "this is my project use jwt",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "wuchenge",
+        "email": "ligui0506@126.com"
+    }],
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Wuchenge\\Jwt\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require":
+    {
+        "php": ">=7.0"
+    }
+}
